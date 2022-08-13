@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\DesignPatternss\Builder\BuilderExample2\bin\Debug\BuilderExample2.exe.config
+C:\Users\User\Desktop\DesignPatternss\Builder\BuilderExample2\bin\Debug\BuilderExample2.exe
+C:\Users\User\Desktop\DesignPatternss\Builder\BuilderExample2\bin\Debug\BuilderExample2.pdb
+C:\Users\User\Desktop\DesignPatternss\Builder\BuilderExample2\obj\Debug\BuilderExample2.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\DesignPatternss\Builder\BuilderExample2\obj\Debug\BuilderExample2.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\DesignPatternss\Builder\BuilderExample2\obj\Debug\BuilderExample2.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\DesignPatternss\Builder\BuilderExample2\obj\Debug\BuilderExample2.exe
+C:\Users\User\Desktop\DesignPatternss\Builder\BuilderExample2\obj\Debug\BuilderExample2.pdb

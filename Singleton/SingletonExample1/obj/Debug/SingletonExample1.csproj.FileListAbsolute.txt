@@ -1,0 +1,8 @@
+C:\Users\User\source\repos\Singleton\SingletonExample1\bin\Debug\SingletonExample1.exe.config
+C:\Users\User\source\repos\Singleton\SingletonExample1\bin\Debug\SingletonExample1.exe
+C:\Users\User\source\repos\Singleton\SingletonExample1\bin\Debug\SingletonExample1.pdb
+C:\Users\User\source\repos\Singleton\SingletonExample1\obj\Debug\SingletonExample1.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Singleton\SingletonExample1\obj\Debug\SingletonExample1.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\Singleton\SingletonExample1\obj\Debug\SingletonExample1.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Singleton\SingletonExample1\obj\Debug\SingletonExample1.exe
+C:\Users\User\source\repos\Singleton\SingletonExample1\obj\Debug\SingletonExample1.pdb
