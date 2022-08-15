@@ -1,0 +1,3 @@
+C:\Users\User\Desktop\DesignPatternss\Factory\FactoryMethod\obj\Debug\FactoryMethod.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\FactoryMethod\obj\Debug\FactoryMethod.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\FactoryMethod\obj\Debug\FactoryMethod.csproj.CoreCompileInputs.cache
