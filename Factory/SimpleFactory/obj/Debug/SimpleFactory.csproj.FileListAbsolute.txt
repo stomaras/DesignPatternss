@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactory\bin\Debug\SimpleFactory.exe.config
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactory\bin\Debug\SimpleFactory.exe
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactory\bin\Debug\SimpleFactory.pdb
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactory\obj\Debug\SimpleFactory.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactory\obj\Debug\SimpleFactory.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactory\obj\Debug\SimpleFactory.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactory\obj\Debug\SimpleFactory.exe
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactory\obj\Debug\SimpleFactory.pdb

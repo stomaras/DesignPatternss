@@ -6,3 +6,11 @@ C:\Users\User\source\repos\Factory\Factory\obj\Debug\Factory.csproj.SuggestedBin
 C:\Users\User\source\repos\Factory\Factory\obj\Debug\Factory.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\Factory\Factory\obj\Debug\Factory.exe
 C:\Users\User\source\repos\Factory\Factory\obj\Debug\Factory.pdb
+C:\Users\User\Desktop\DesignPatternss\Factory\Factory\bin\Debug\Factory.exe.config
+C:\Users\User\Desktop\DesignPatternss\Factory\Factory\bin\Debug\Factory.exe
+C:\Users\User\Desktop\DesignPatternss\Factory\Factory\bin\Debug\Factory.pdb
+C:\Users\User\Desktop\DesignPatternss\Factory\Factory\obj\Debug\Factory.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\Factory\obj\Debug\Factory.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\Factory\obj\Debug\Factory.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\Factory\obj\Debug\Factory.exe
+C:\Users\User\Desktop\DesignPatternss\Factory\Factory\obj\Debug\Factory.pdb
