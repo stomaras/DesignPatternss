@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\DesignPatternss\Factory\FactoryMethodUdemy\bin\Debug\FactoryMethodUdemy.exe.config
+C:\Users\User\Desktop\DesignPatternss\Factory\FactoryMethodUdemy\bin\Debug\FactoryMethodUdemy.exe
+C:\Users\User\Desktop\DesignPatternss\Factory\FactoryMethodUdemy\bin\Debug\FactoryMethodUdemy.pdb
+C:\Users\User\Desktop\DesignPatternss\Factory\FactoryMethodUdemy\obj\Debug\FactoryMethodUdemy.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\FactoryMethodUdemy\obj\Debug\FactoryMethodUdemy.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\FactoryMethodUdemy\obj\Debug\FactoryMethodUdemy.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\FactoryMethodUdemy\obj\Debug\FactoryMethodUdemy.exe
+C:\Users\User\Desktop\DesignPatternss\Factory\FactoryMethodUdemy\obj\Debug\FactoryMethodUdemy.pdb

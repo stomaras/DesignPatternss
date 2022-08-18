@@ -1,0 +1,3 @@
+C:\Users\User\Desktop\DesignPatternss\Factory\AsynchronousFactoryMethod\obj\Debug\AsynchronousFactoryMethod.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\AsynchronousFactoryMethod\obj\Debug\AsynchronousFactoryMethod.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\AsynchronousFactoryMethod\obj\Debug\AsynchronousFactoryMethod.csproj.CoreCompileInputs.cache

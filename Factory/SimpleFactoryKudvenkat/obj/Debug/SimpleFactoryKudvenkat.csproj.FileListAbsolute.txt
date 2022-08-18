@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactoryKudvenkat\bin\Debug\SimpleFactoryKudvenkat.exe.config
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactoryKudvenkat\bin\Debug\SimpleFactoryKudvenkat.exe
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactoryKudvenkat\bin\Debug\SimpleFactoryKudvenkat.pdb
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactoryKudvenkat\obj\Debug\SimpleFactoryKudvenkat.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactoryKudvenkat\obj\Debug\SimpleFactoryKudvenkat.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactoryKudvenkat\obj\Debug\SimpleFactoryKudvenkat.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactoryKudvenkat\obj\Debug\SimpleFactoryKudvenkat.exe
+C:\Users\User\Desktop\DesignPatternss\Factory\SimpleFactoryKudvenkat\obj\Debug\SimpleFactoryKudvenkat.pdb
