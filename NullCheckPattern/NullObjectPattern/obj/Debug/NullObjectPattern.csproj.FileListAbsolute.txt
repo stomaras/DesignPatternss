@@ -1,0 +1,8 @@
+C:\Users\User\source\repos\NullCheckPattern\NullObjectPattern\bin\Debug\NullObjectPattern.exe.config
+C:\Users\User\source\repos\NullCheckPattern\NullObjectPattern\bin\Debug\NullObjectPattern.exe
+C:\Users\User\source\repos\NullCheckPattern\NullObjectPattern\bin\Debug\NullObjectPattern.pdb
+C:\Users\User\source\repos\NullCheckPattern\NullObjectPattern\obj\Debug\NullObjectPattern.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\NullCheckPattern\NullObjectPattern\obj\Debug\NullObjectPattern.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\NullCheckPattern\NullObjectPattern\obj\Debug\NullObjectPattern.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\NullCheckPattern\NullObjectPattern\obj\Debug\NullObjectPattern.exe
+C:\Users\User\source\repos\NullCheckPattern\NullObjectPattern\obj\Debug\NullObjectPattern.pdb
