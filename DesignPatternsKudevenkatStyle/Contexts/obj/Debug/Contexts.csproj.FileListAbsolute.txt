@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\bin\Debug\Contexts.dll.config
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\bin\Debug\Contexts.dll
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\bin\Debug\Contexts.pdb
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\bin\Debug\Entities.dll
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\bin\Debug\Entities.pdb
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\bin\Debug\Entities.dll.config
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\obj\Debug\Contexts.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\obj\Debug\Contexts.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\obj\Debug\Contexts.csproj.CopyComplete
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\obj\Debug\Contexts.dll
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\Contexts\obj\Debug\Contexts.pdb

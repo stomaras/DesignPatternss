@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\DTOS\bin\Debug\DTOS.dll.config
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\DTOS\bin\Debug\DTOS.dll
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\DTOS\bin\Debug\DTOS.pdb
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\DTOS\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\DTOS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\DTOS\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\DTOS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\DTOS\obj\Debug\DTOS.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\DTOS\obj\Debug\DTOS.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\DTOS\obj\Debug\DTOS.csproj.CopyComplete
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\DTOS\obj\Debug\DTOS.dll
+C:\Users\user\source\repos\DesignPatternsKudevenkatStyle\DTOS\obj\Debug\DTOS.pdb
