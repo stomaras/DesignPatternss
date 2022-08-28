@@ -15,5 +15,11 @@ namespace Entities
         public string Department { get; set; }
         public int EmployeeTypeId { get; set; }
         public EmployeeType EmployeeType { get; set; }
+
+        public decimal HourlyPay { get; set; }
+        public decimal Bonus { get; set; }
+
+        public decimal HouseAllowance { get; set; }
+        public decimal MedicalAllowance { get; set; }
     }
 }

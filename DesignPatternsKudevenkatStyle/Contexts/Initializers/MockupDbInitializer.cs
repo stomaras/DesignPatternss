@@ -69,6 +69,7 @@ namespace Contexts.Initializers
                 JobDescription = "Structural Engineer",
                 EmployeeTypeId = 2
             };
+            
 
             context.Employees.AddOrUpdate(emp1, emp2, emp3, emp4);
             context.SaveChanges();

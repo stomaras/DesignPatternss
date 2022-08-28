@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Contexts
 {
     public class EmpPortalContext : DbContext
-    {
+    { 
         public DbSet<Employee> Employees { get; set; }
         public DbSet<EmployeeType> EmployeeTypes { get; set; }
 
@@ -23,9 +23,11 @@ namespace Contexts
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Employee>()
-                .HasRequired<EmployeeType>(s => s.EmployeeType)
+                .HasRequired(s => s.EmployeeType)
                 .WithMany(g => g.Employees).HasForeignKey<int>(s => s.EmployeeTypeId);
 
+            //modelBuilder.Entity<Employee>().Ignore(c => c.Bonus);
+            
             base.OnModelCreating(modelBuilder);
         }
 
