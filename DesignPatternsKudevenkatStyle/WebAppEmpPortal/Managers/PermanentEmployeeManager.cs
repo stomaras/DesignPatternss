@@ -17,6 +17,7 @@ namespace WebAppEmpPortal.Managers
             return 8;
         }
 
+        // Specific for the PermanentEmployeeManager, not implemented in the IEmployeeManager
         public decimal GetHouseAllowance()
         {
             return 150;

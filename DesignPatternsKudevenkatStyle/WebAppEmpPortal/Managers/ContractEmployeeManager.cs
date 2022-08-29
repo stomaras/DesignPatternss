@@ -17,6 +17,7 @@ namespace WebAppEmpPortal.Managers
             return 12;
         }
 
+        // Specific to contract Employee not implemented in IEmployeeManager
         public decimal GetMedicalAllowance()
         {
             return 100;

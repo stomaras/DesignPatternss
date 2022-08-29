@@ -82,6 +82,123 @@ namespace ConsoleEmpPortal
  * specific operations related to permanent and contract employee.
  * 
  * 
+ * Employee
+ * Controller
+ *      |
+ *      |
+ *      |                  | Abstract|                        Permanent                           Permanent       
+ * Employee                |Employee |                        Employee                            Employee
+ * Manager --------------- | Factory |----------------------  Factory---------------------------- Manager
+ * Factory                 |         |                        +Create
+ *                         | +GetPay |
+ *                         |+GetBonus|                                                                                       IEmployee
+ *                         |         |                                                                                        Manager
+ *                         | +Create |------------------------Contract----------------------------Contract
+ *                         |Abstract |                        Employee                            Employee
+ *                                                            Factory                             Manager
+ *                                                            +create
+ * 
+ * 
+ * 
+ * Abstract Factory Design Pattern 
+ * 
+ * - What is Abstract Factory Design Pattern
+ * - Implementation Guidelines
+ * - Abstract Factory Implementation
+ * - Differences between Factory Method and Abstract Factory Pattern 
+ * 
+ * Abstract Factory Design Pattern 
+ * 
+ * Gang of Four Definition
+ * 
+ * - The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without 
+ *   specifying their concrete classes.
+ * - The Abstract Factory Pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+ * - Abstract Factory pattern belongs to creational patterns and is one of the most used design patterns in rela world applications
+ * - Abstract Factory is a super factory that creates other factories.
+ * 
+ * Implementation Guidelines
+ * Choose Abstract Factory Pattern When :
+ * - The application need to create multiple families of objects or products
+ * - We need to use only one of the subset of families of objects at a given point of time.
+ * - We want to hide the implementation of the families of products by decoupling the implementation of each of those operations.
+ * 
+ * 
+ * ABSTRACT FACTORY REPRESENTATION
+ * 
+ *                                                          CLIENT
+ * ------------------------------------------------------------------------------------------------------------------------------------
+ * AbstarctFactory                                                                                       AbstractProductA
+ * +CreateProductA()                                                                                           |
+ * +CreateProductB()                                                                                           |
+ *        |                                                                                         ----------------------------
+ *        |                                                                                         |                           |
+ *        |                                                                                         |                           |
+ * ----------------                                                                            ProductA1                    ProductA2
+ * |                |
+ * |                |                                                                                   AbstractProductB
+ * |                |                                                                                           |
+ * |                |                                                                                           |
+ * Concrete      Concrete                                                                       ------------------------------------
+ * Factory1      Factory2                                                                       |                                  |
+ * +CreateProA() +CreateProA()                                                                  |                                  |
+ * +CreateProB() +CreateProB()                                                              ProductB1                           ProductB2
+ * 
+ * 
+ * Business Requirement
+ * - Handout computers to Contract and Permanent Employees based on 
+ *   the designation and employee type with below specifications
+ * 
+ * - Permanent Employee
+ *      - Managerial Position is eligible fo Apple MAC Book Laptop.
+ *      - Non Managerial Position is eligible for Apple IMac desktop.
+ * 
+ * - Contract Employee
+ *      - Managerial Position is eligible for Dell Laptop.
+ *      - Non Managerial Position is eligible for Dell Desktop.
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
  * 
  * 
  * 

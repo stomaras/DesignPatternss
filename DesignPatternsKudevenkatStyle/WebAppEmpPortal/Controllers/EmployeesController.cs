@@ -14,6 +14,18 @@ using WebAppEmpPortal.Managers;
 
 namespace WebAppEmpPortal.Controllers
 {
+
+    /*
+     * 
+     * 2) Factory Method Pattern 
+     *    
+     *    Business Requirement
+     *    - Differentiate employees as permanent and contract and segregate their pay scales as well as bonus based on their employee types.(Simple Factory)
+     *    - Calculate Permanent Employee House Rent Allowance
+     *    - Claculate Contract Employee Medical Allowance.
+     * 
+     * 
+     */
     public class EmployeesController : Controller
     {
         UnitOfWork companyUnit;

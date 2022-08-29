@@ -21,5 +21,7 @@ namespace Entities
 
         public decimal HouseAllowance { get; set; }
         public decimal MedicalAllowance { get; set; }
+
+        public string ComputerDetails { get; set; }
     }
 }

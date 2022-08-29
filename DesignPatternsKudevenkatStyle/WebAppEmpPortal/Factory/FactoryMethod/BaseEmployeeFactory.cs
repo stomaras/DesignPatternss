@@ -7,6 +7,11 @@ using WebAppEmpPortal.Managers;
 
 namespace WebAppEmpPortal.Factory.FactoryMethod
 {
+    /*
+     * This class implemented the specific operations related to permanent and contract employee.
+     * And Common operations.
+     * 
+     */
     public abstract class BaseEmployeeFactory
     {
         protected Employee _emp;
