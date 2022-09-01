@@ -131,7 +131,7 @@ namespace ConsoleEmpPortal
  * AbstarctFactory                                                                                       AbstractProductA
  * +CreateProductA()                                                                                           |
  * +CreateProductB()                                                                                           |
- *        |                                                                                         ----------------------------
+ *        |                                                                                        ------------------------------
  *        |                                                                                         |                           |
  *        |                                                                                         |                           |
  * ----------------                                                                            ProductA1                    ProductA2
@@ -150,7 +150,7 @@ namespace ConsoleEmpPortal
  *   the designation and employee type with below specifications
  * 
  * - Permanent Employee
- *      - Managerial Position is eligible fo Apple MAC Book Laptop.
+ *      - Managerial Position is eligible for Apple MAC Book Laptop.
  *      - Non Managerial Position is eligible for Apple IMac desktop.
  * 
  * - Contract Employee

@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using Contexts;
 using Entities;
 using Repositories.Persistance;
+using WebAppEmpPortal.Factory.AbstractFactoryy;
 using WebAppEmpPortal.Factory.FactoryMethod;
 using WebAppEmpPortal.Managers;
 
@@ -75,7 +76,9 @@ namespace WebAppEmpPortal.Controllers
             {
                 BaseEmployeeFactory empFactory = new EmployeeManagerFactory().CreateFactory(employee);
                 empFactory.ApplySalary();
-
+                IComputerFactory factory = new EmployeeSystemFactory().Create(employee);
+                EmployeeSystemManager manager = new EmployeeSystemManager(factory);
+                employee.ComputerDetails = manager.GetSystemDetails();
                 db.Employees.Add(employee);
                 db.SaveChanges();
                 return RedirectToAction("Index");
