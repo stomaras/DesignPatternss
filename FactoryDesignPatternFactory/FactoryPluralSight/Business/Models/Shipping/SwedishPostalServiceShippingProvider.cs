@@ -7,20 +7,17 @@ using System.Threading.Tasks;
 
 namespace FactoryPluralSight.Business.Models.Shipping
 {
-    public class AustraliaPostShippingProvider : ShippingProvider
+    public class SwedishPostalServiceShippingProvider : ShippingProvider
     {
-        private readonly string clientId;
-        private readonly string secret;
+        private readonly string apiKey;
 
-        public AustraliaPostShippingProvider(
-            string clientId,
-            string secret,
+        public SwedishPostalServiceShippingProvider(
+            string apiKey,
             ShippingCostCalculator shippingCostCalculator,
             CustomHandlingOptions customsHandlingOptions,
             InsuranceOptions insuranceOptions)
         {
-            this.clientId = clientId;
-            this.secret = secret;
+            this.apiKey = apiKey;
 
             ShippingCostCalculator = shippingCostCalculator;
             CustomHandlingOptions = customsHandlingOptions;
@@ -30,11 +27,6 @@ namespace FactoryPluralSight.Business.Models.Shipping
         public override string GenerateShippingLabelFor(Order order)
         {
             var shippingId = GetShippingId();
-
-            if (order.Recipient.Country != order.Sender.Country)
-            {
-                throw new NotSupportedException("International shipping not supported");
-            }
 
             var shippingCost = ShippingCostCalculator.CalculateFor(order.Recipient.Country,
                 order.Sender.Country,
@@ -51,7 +43,8 @@ namespace FactoryPluralSight.Business.Models.Shipping
         {
             // Invoke API with API Key
 
-            return $"AUS-{Guid.NewGuid()}";
+            return Guid.NewGuid().ToString();
         }
+
     }
 }

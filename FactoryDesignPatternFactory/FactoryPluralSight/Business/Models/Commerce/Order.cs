@@ -18,7 +18,7 @@ namespace FactoryPluralSight.Business.Models.Commerce
 
         public decimal Total => LineItems.Sum(item => item.Key.Price * item.Value);
 
-        public ShippingStatus ShippinStatus { get; set; } = ShippingStatus.WaitingForPayment;
+        public ShippingStatus ShippingStatus { get; set; } = ShippingStatus.WaitingForPayment;
 
         public Address Recipient { get; set; }
         public Address Sender { get; set; }
