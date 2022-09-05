@@ -1,5 +1,6 @@
 ﻿using FactoryPluralSight.Business;
 using FactoryPluralSight.Business.Models.Commerce;
+using FactoryPluralSight.Business.Models.Shipping.Factories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -67,6 +68,44 @@ namespace FactoryPluralSight
      * So it make sense to introduce a static method that allows us to create an instance of a shipping provider.
      * 
      * 
+     * When we are instantiating our shopping cart we also need to pass the appropriate ShippingProviderFactory.
+     * The concrete factory is most of the time determined based on user input or configuration during runtime.
+     * 
+     * VIP vs Standard User
+     * 
+     * VIP ---> uses ---> Global Express Shipping Provider Factory.
+     * Standard ---> uses ---> Standard Shipping Provider Factory.
+     * 
+     * The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme 
+     * without specifying their concrete classes.
+     * 
+     * IPurchaseProviderFactory
+     * - CreateShippingProvider(): IShippingProvider
+     * - CreateInvoice(): IInvoice
+     * - CreateSummary(): ISummary
+     * 
+     * SwedenPurchaseFactory                AustraliaPurchaseFactory
+     * - CreateShippingProvider()           - CreateShippingProvider()
+     * - CreateInvoice()                    - CreateInvoice()
+     * - CreateSummary()                    - CreateSummary()
+     * 
+     * Invoices and tax on them work very different in these countries.
+     * 
+     * Example : Using the Abstract Factory 
+     * 
+     * var shippingProvider = purchaseProviderFactroy.CreateShippingProvider(order);
+     * var invoice = purchaseProviderFactory.CreateInvoice(order);
+     * 
+     * Common thing is that all depend on the order in the shopping cart.
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
      * 
      */
     class Program
@@ -74,7 +113,7 @@ namespace FactoryPluralSight
         static void Main(string[] args)
         {
             Order order = new Order();
-            var cart = new ShoppingCart(order);
+            var cart = new ShoppingCart(order, new ShippingProviderFactory());
             var shippingLabel = cart.Finalize();
             Console.WriteLine(shippingLabel);
         }
