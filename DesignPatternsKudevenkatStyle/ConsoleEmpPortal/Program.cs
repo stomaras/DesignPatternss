@@ -156,68 +156,12 @@ namespace ConsoleEmpPortal
  * - Contract Employee
  *      - Managerial Position is eligible for Dell Laptop.
  *      - Non Managerial Position is eligible for Dell Desktop.
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
+ *
+ *
+ *  Builder
+    Provide an option to choose and build configuration of the system which is allocated to the employees.
+    The configuration options that user can choose are RAM, HDD, USB Mouse. Etc.
+ 
+
+
  */

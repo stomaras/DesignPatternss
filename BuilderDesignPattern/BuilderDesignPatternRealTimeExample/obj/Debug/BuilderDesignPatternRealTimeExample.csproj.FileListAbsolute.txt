@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\BuilderDesignPattern\BuilderDesignPatternRealTimeExample\bin\Debug\BuilderDesignPatternRealTimeExample.exe.config
+C:\Users\user\source\repos\BuilderDesignPattern\BuilderDesignPatternRealTimeExample\bin\Debug\BuilderDesignPatternRealTimeExample.exe
+C:\Users\user\source\repos\BuilderDesignPattern\BuilderDesignPatternRealTimeExample\bin\Debug\BuilderDesignPatternRealTimeExample.pdb
+C:\Users\user\source\repos\BuilderDesignPattern\BuilderDesignPatternRealTimeExample\obj\Debug\BuilderDesignPatternRealTimeExample.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\BuilderDesignPattern\BuilderDesignPatternRealTimeExample\obj\Debug\BuilderDesignPatternRealTimeExample.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\BuilderDesignPattern\BuilderDesignPatternRealTimeExample\obj\Debug\BuilderDesignPatternRealTimeExample.exe
+C:\Users\user\source\repos\BuilderDesignPattern\BuilderDesignPatternRealTimeExample\obj\Debug\BuilderDesignPatternRealTimeExample.pdb

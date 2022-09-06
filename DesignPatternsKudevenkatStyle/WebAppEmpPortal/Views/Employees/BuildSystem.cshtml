@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "BuildSystem";
+}
+
+<h2>BuildSystem</h2>
+
+
+@using (Html.BeginForm("BuildSystem", "Employees", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>System Configuration</h4>
+        <hr/>
+       
+    </div>
+
+
+}

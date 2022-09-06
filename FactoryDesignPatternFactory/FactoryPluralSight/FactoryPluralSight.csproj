@@ -43,18 +43,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\IPurchaseProviderFactory.cs" />
     <Compile Include="Business\Models\Commerce\Address.cs" />
+    <Compile Include="Business\Models\Commerce\Invoice\GSTInvoice.cs" />
+    <Compile Include="Business\Models\Commerce\Invoice\IInvoice.cs" />
+    <Compile Include="Business\Models\Commerce\Invoice\NoVATInvoice.cs" />
+    <Compile Include="Business\Models\Commerce\Invoice\VATInvoice.cs" />
     <Compile Include="Business\Models\Commerce\Item.cs" />
     <Compile Include="Business\Models\Commerce\Order.cs" />
     <Compile Include="Business\Models\Commerce\Payment.cs" />
     <Compile Include="Business\Models\Commerce\Enums\PaymentProvider.cs" />
+    <Compile Include="Business\Models\Commerce\Summary\CSVSummary.cs" />
+    <Compile Include="Business\Models\Commerce\Summary\EmailSummary.cs" />
+    <Compile Include="Business\Models\Commerce\Summary\ISummary.cs" />
+    <Compile Include="Business\Models\Shipping\AustraliaPostShippingProvider.cs" />
+    <Compile Include="Business\Models\Shipping\AustraliaPurchaseProviderFactory.cs" />
     <Compile Include="Business\Models\Shipping\CustomHandlingOptions.cs" />
     <Compile Include="Business\Models\Shipping\Enums\ShippingStatus.cs" />
     <Compile Include="Business\Models\Shipping\Enums\ShippingType.cs" />
     <Compile Include="Business\Models\Shipping\Enums\TaxOptions.cs" />
+    <Compile Include="Business\Models\Shipping\Factories\GeneralShippingProviderFactory.cs" />
+    <Compile Include="Business\Models\Shipping\Factories\GlobalExpressShipingProviderFactory.cs" />
+    <Compile Include="Business\Models\Shipping\GlobalExpressShippingProvider.cs" />
     <Compile Include="Business\Models\Shipping\InsuranceOptions.cs" />
     <Compile Include="Business\Models\Shipping\ShippingCostCalculator.cs" />
     <Compile Include="Business\Models\Shipping\ShippingProvider.cs" />
+    <Compile Include="Business\Models\Shipping\Factories\ShippingProviderFactory.cs" />
+    <Compile Include="Business\Models\Shipping\SwedenPurchaseProviderFactory.cs" />
+    <Compile Include="Business\Models\Shipping\SwedishPostalServiceShippingProvider.cs" />
     <Compile Include="Business\ShoppingCart.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

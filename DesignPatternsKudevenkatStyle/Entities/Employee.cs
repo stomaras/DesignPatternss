@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
+    
     public class Employee
     {
         public int Id { get; set; }
@@ -23,5 +24,7 @@ namespace Entities
         public decimal MedicalAllowance { get; set; }
 
         public string ComputerDetails { get; set; }
+
+        public string SystemConfigurationDetails { get; set; }
     }
 }

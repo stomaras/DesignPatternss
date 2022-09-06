@@ -43,6 +43,11 @@ namespace WebAppEmpPortal.Controllers
             return View(employees);
         }
 
+        public ActionResult BuildSystem(int? employeeId)
+        {
+            return View(employeeId);
+        }
+
         // GET: Employees/Details/5
         public ActionResult Details(int? id)
         {
