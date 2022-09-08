@@ -19,3 +19,6 @@ C:\Users\user\source\repos\Architect\BuilderPattern\obj\Debug\BuilderPattern.csp
 C:\Users\user\source\repos\Architect\BuilderPattern\obj\Debug\BuilderPattern.csproj.CopyComplete
 C:\Users\user\source\repos\Architect\BuilderPattern\obj\Debug\BuilderPattern.exe
 C:\Users\user\source\repos\Architect\BuilderPattern\obj\Debug\BuilderPattern.pdb
+C:\Users\user\source\repos\Architect\BuilderPattern\bin\Debug\DesignPatternss.dll
+C:\Users\user\source\repos\Architect\BuilderPattern\bin\Debug\DesignPatternss.pdb
+C:\Users\user\source\repos\Architect\BuilderPattern\bin\Debug\DesignPatternss.dll.config

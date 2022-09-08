@@ -55,10 +55,19 @@
     <Compile Include="MotorCycle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scooter.cs" />
+    <Compile Include="Vehicle.cs" />
+    <Compile Include="VehicleParts\Door.cs" />
+    <Compile Include="VehicleParts\EngineMotors.cs" />
+    <Compile Include="VehicleParts\Engine.cs" />
+    <Compile Include="VehicleParts\WheelMotors.cs" />
+    <Compile Include="VehicleParts\Wheel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Validators\Facade\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

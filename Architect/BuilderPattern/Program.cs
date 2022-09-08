@@ -1,4 +1,5 @@
 ﻿using DAL;
+using Repositories.Persistance;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,20 +13,20 @@ namespace BuilderPattern
         static void Main(string[] args)
         {
             MainDBContext db = new MainDBContext();
+           // UnitOfWork unit = new UnitOfWork(db);
 
-            var cars = db.Cars;
+            //var cars = unit.Cars.GetAll();
+            //var motors = unit.Motors.GetAll();
 
-            var motors = db.MotorCycles;
+            //foreach (var car in cars)
+            //{
+            //    Console.WriteLine(car.Name);
+            //}
 
-            foreach (var car in cars)
-            {
-                Console.WriteLine(car.Name);
-            }
-
-            foreach (var motor in motors)
-            {
-                Console.WriteLine(motor.Name);
-            }
+            //foreach (var motor in motors)
+            //{
+            //    Console.WriteLine(motor.Name);
+            //}
             
         }
     }

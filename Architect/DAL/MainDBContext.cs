@@ -1,5 +1,6 @@
 ﻿using DAL.Initializers;
 using Entities;
+using Entities.VehicleParts;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -19,5 +20,10 @@ namespace DAL
 
         public DbSet<Car> Cars { get; set; }
         public DbSet<MotorCycle> MotorCycles { get; set; }
+        public DbSet<Door> Doors { get; set; }
+        public DbSet<Wheel> Wheels { get; set; }
+        public DbSet<Engine> Engines { get; set; }
+        public DbSet<EngineMotors> EngineMotors { get; set; }
+        public DbSet<WheelMotors> WheelMotors { get; set; }
     }
 }

@@ -13,5 +13,3 @@ C:\Users\user\source\repos\Architect\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.
 C:\Users\user\source\repos\Architect\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\user\source\repos\Architect\DAL\obj\Debug\DAL.dll
 C:\Users\user\source\repos\Architect\DAL\obj\Debug\DAL.pdb
-C:\Users\user\source\repos\Architect\DAL\obj\Debug\DAL.Migrations.seedVehicles.resources
-C:\Users\user\source\repos\Architect\DAL\obj\Debug\DAL.csproj.GenerateResource.cache

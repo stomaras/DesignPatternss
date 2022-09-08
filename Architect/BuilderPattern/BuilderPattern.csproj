@@ -65,6 +65,10 @@
       <Project>{b85cf31b-f5df-4342-bf0a-2c5960755fc8}</Project>
       <Name>DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DesignPatternss\DesignPatternss.csproj">
+      <Project>{353cdc86-0d08-410a-8be6-ca32066c8607}</Project>
+      <Name>DesignPatternss</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entities\Entities.csproj">
       <Project>{07fb2834-1924-4393-a679-073fc3bc4d39}</Project>
       <Name>Entities</Name>
