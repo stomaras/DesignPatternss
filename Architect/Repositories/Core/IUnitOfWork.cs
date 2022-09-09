@@ -11,7 +11,11 @@ namespace Repositories.Core
     {
         ICarRepository Cars { get; }
         IMotorRepository Motors { get; }
-
+        IDoorRepository Doors { get; }
+        IEngineRepository Engines { get; }
+        IEngineMotorRepository EngineMotors { get; }
+        IWheelRepository Wheels { get; }
+        IWheelMotorRepository MotorWheels { get; }
         int Complete();
     }
 }

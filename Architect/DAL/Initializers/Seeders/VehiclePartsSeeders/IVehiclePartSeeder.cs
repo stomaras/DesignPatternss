@@ -10,9 +10,9 @@ namespace DAL.Initializers.Seeders.VehiclePartsSeeders
     public interface IVehiclePartSeeder
     {
         List<Engine> GetCarEngines();
-        List<Engine> GetMotorCycleEngines();
+        List<EngineMotors>  GetMotorCycleEngines();
         List<Door> GetDoors();
         List<Wheel> GetCarWheels();
-        List<Wheel> GetMotorCycleWheels();
+        List<WheelMotors> GetMotorCycleWheels();
     }
 }

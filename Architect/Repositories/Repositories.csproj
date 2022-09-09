@@ -55,10 +55,20 @@
     <Compile Include="Core\IGenericRepository.cs" />
     <Compile Include="Core\IUnitOfWork.cs" />
     <Compile Include="Core\Repositories\ICarRepository.cs" />
+    <Compile Include="Core\Repositories\IDoorRepository.cs" />
+    <Compile Include="Core\Repositories\IEngineMotorRepository.cs" />
+    <Compile Include="Core\Repositories\IEngineRepository.cs" />
     <Compile Include="Core\Repositories\IMotorRepository.cs" />
+    <Compile Include="Core\Repositories\IWheelMotorRepository.cs" />
+    <Compile Include="Core\Repositories\IWheelRepository.cs" />
     <Compile Include="Persistance\GenericRepository.cs" />
     <Compile Include="Persistance\Repositories\CarRepository.cs" />
+    <Compile Include="Persistance\Repositories\DoorRepository.cs" />
+    <Compile Include="Persistance\Repositories\EngineMotorRepository.cs" />
+    <Compile Include="Persistance\Repositories\EngineRepository.cs" />
     <Compile Include="Persistance\Repositories\MotorRepository.cs" />
+    <Compile Include="Persistance\Repositories\WheelMotorRepository.cs" />
+    <Compile Include="Persistance\Repositories\WheelRepository.cs" />
     <Compile Include="Persistance\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

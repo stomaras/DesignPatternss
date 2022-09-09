@@ -9,6 +9,9 @@ namespace Repositories.Core.Repositories
 {
     public interface ICarRepository : IGenericRepository<Car>
     {
-        
+
+        IEnumerable<Car> GetCarsWithEverything();
+
+        Car GetCarWithEverything(object id);
     }
 }

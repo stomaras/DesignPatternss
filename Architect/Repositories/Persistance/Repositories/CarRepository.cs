@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace Repositories.Persistance.Repositories
 {
@@ -16,5 +17,25 @@ namespace Repositories.Persistance.Repositories
 
         }
 
+        public IEnumerable<Car> GetCarsWithEverything()
+        {
+            var carsWithEverything = table.Include(x => x.Wheels).Include(y => y.Doors).Include(z => z.Engine).ToList();
+
+            return carsWithEverything;
+        }
+
+        public Car GetCarWithEverything(object id)
+        {
+            var cars = GetCarsWithEverything();
+
+            foreach (var car in cars)
+            {
+                if (car.Id.Equals(id))
+                {
+                    return car;
+                }
+            }
+            return null;
+        }
     }
 }

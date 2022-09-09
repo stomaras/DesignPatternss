@@ -51,15 +51,15 @@ namespace DAL.Initializers.Seeders.VehiclePartsSeeders
         #endregion
 
         #region Seed MotorCycle Engines
-        public List<Engine> GetMotorCycleEngines()
+        public List<EngineMotors> GetMotorCycleEngines()
         {
-            List<Engine> motorCycleEngines = new List<Engine>()
+            List<EngineMotors> motorCycleEngines = new List<EngineMotors>()
             {
-                new Engine(){Type= "Two - Stroke and four-stroke", NumOfGears = 5},
-                new Engine(){Type= "Cylinder Heads", NumOfGears = 5},
-                new Engine(){Type= "Valve control in four-strokes", NumOfGears = 5},
-                new Engine(){Type= "Unit Construction", NumOfGears = 5},
-                new Engine(){Type= "Cylinders and Configuration", NumOfGears = 5},
+                new EngineMotors(){Type= "Two - Stroke and four-stroke", NumOfGears = 5},
+                new EngineMotors(){Type= "Cylinder Heads", NumOfGears = 5},
+                new EngineMotors(){Type= "Valve control in four-strokes", NumOfGears = 5},
+                new EngineMotors(){Type= "Unit Construction", NumOfGears = 5},
+                new EngineMotors(){Type= "Cylinders and Configuration", NumOfGears = 5},
             };
             return motorCycleEngines;
         }
@@ -84,31 +84,22 @@ namespace DAL.Initializers.Seeders.VehiclePartsSeeders
 
 
         #region Seed MotorCycleWheels
-        public List<Wheel> GetMotorCycleWheels()
+        public List<WheelMotors> GetMotorCycleWheels()
         {
-            var wheels = new List<Wheel>()
+            var wheels = new List<WheelMotors>()
             {
-                new Wheel(){Type="Spoked Wheels"},
-                new Wheel(){Type="Cast Wheels"},
-                new Wheel(){Type="Magnesium alloy wheels"},
-                new Wheel(){Type="Composite Wheels"}
+                new WheelMotors(){Type="Spoked Wheels"},
+                new WheelMotors(){Type="Cast Wheels"},
+                new WheelMotors(){Type="Magnesium alloy wheels"},
+                new WheelMotors(){Type="Composite Wheels"}
             };
             return wheels;
         }
+
+        
         #endregion
 
 
-        #region All Wheels
-        public List<Wheel> GetWheels()
-        {
-            List<Wheel> carwheels = GetCarWheels();
-            List<Wheel> motorWheels = GetMotorCycleWheels();
-            List<Wheel> totalWheels = new List<Wheel>();
-            totalWheels.AddRange(carwheels);
-            totalWheels.AddRange(motorWheels);
-            return totalWheels;
-        }
-        #endregion
 
 
     }

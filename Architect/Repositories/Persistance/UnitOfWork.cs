@@ -19,6 +19,11 @@ namespace Repositories.Persistance
             context = dbContext;
             Cars = new CarRepository(context);
             Motors = new MotorRepository(context);
+            Doors = new DoorRepository(context);
+            Engines = new EngineRepository(context);
+            EngineMotors = new EngineMotorRepository(context);
+            Wheels = new WheelRepository(context);
+            MotorWheels = new WheelMotorRepository(context);
         }
 
 
@@ -26,6 +31,15 @@ namespace Repositories.Persistance
         public ICarRepository Cars { get; private set; }
 
         public IMotorRepository Motors { get; private set; }
+
+        public IDoorRepository Doors { get; private set; }
+
+        public IEngineRepository Engines { get; private set; }
+        public IEngineMotorRepository EngineMotors { get; private set; }
+
+        public IWheelRepository Wheels { get; private set; }
+
+        public IWheelMotorRepository MotorWheels { get; private set; }
 
         public int Complete()
         {

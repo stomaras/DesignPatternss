@@ -14,7 +14,6 @@ namespace Repositories.Core
         void Add(T obj);
         void Update(T obj);
         void Delete(object id);
-
         void DeleteAll();
         void Save();
     }
